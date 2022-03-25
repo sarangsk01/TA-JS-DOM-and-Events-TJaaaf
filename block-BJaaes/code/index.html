@@ -7,49 +7,70 @@
     <title>Form Validation 👇</title>
   </head>
   <body>
-    <div>
-      <form class="container">
+    <div class="container">
+      <header>
+        <h1>Create Account</h1>
+      </header>
+      <form>
         <div class="form-control">
-          <label for="name">Username:</label>
+          <label for="name">Username</label>
           <input
             id="name"
             type="text"
-            name="text"
-            placeholder="Enter your Username"
+            name="username"
+            placeholder="John123"
           />
+          <small></small>
         </div>
         <div class="form-control">
-          <label for="email">Your Email:</label>
+          <label for="name">Name</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="John"
+          />
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="name">Email</label>
           <input
             id="email"
             type="text"
             name="email"
-            placeholder="Enter your email"
+            placeholder="John@gmail.com"
           />
+          <small></small>
         </div>
         <div class="form-control">
-          <label for="movies">What do you love?</label>
-          <select id="gender" name="choice">
-            <option value="movies">Movies</option>
-            <option value="series">Series</option>
-            <option value="others">Others</option>
-          </select>
-        </div>
-
-        <div class="form-control">
-          <label for="color">Choose a color</label>
+          <label for="name">Phone Number</label>
           <input
-            id="color"
-            type="color"
-            name="movie"
-            placeholder="Enter your email"
+            id="phone"
+            type="number"
+            name="phone"
+            placeholder="1234567890"
           />
+          <small></small>
         </div>
         <div class="form-control">
-          <label>Book genre you love?</label>
-        <div class="form-control terms">
-          <input type="checkbox" id="terms" name="terms" />
-          <label for="terms">I Agree to Terms</label>
+          <label for="name">Password</label>
+          <input
+            id="Password"
+            type="password"
+            name="password"
+            placeholder="Enter your Password"
+          />
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="name">Confirm Password</label>
+          <input
+            id="pass-check"
+            type="password"
+            name="password-check"
+            placeholder="Confirm Password"
+          />
+          <small></small>
         </div>
         <button type="submit">Submit</button>
       </form>

@@ -49,18 +49,29 @@ body {
 
 button {
   padding: 0.5rem;
+  width: 100%;
+  background-color: crimson;
 }
 
-body {
-  margin-top: 2rem;
-}
 
+header{
+  background-color: gray;
+}
+h1{
+  font-size: 2rem;
+  font-weight: 400;
+}
 input[type='text'] {
   padding: 0.5rem 1rem;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
-select {
+input[type='number'] {
+  padding: 0.5rem 1rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+input[type='password'] {
   padding: 0.5rem 1rem;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -68,6 +79,7 @@ select {
 
 .container {
   max-width: 400px;
+  height: 0 auto;
   margin: 2rem auto;
   background: white;
   padding: 1rem;
@@ -84,10 +96,27 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 input[type='text'] {
   width: 100%;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+}
+input[type='number'] {
+  width: 100%;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
 }
 .terms {
   display: inline-block;
+}
+small{
+  color: crimson;
+}
+input[type='text'].success {
+  border: 2px solid green;
+}
+input[type='text'].error {
+  border: 2px solid red;
 }
