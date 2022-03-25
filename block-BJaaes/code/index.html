@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validation 👇</title>
+  </head>
+  <body>
+    <div>
+      <form class="container">
+        <div class="form-control">
+          <label for="name">Username:</label>
+          <input
+            id="name"
+            type="text"
+            name="text"
+            placeholder="Enter your Username"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">Your Email:</label>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-control">
+          <label for="movies">What do you love?</label>
+          <select id="gender" name="choice">
+            <option value="movies">Movies</option>
+            <option value="series">Series</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+
+        <div class="form-control">
+          <label for="color">Choose a color</label>
+          <input
+            id="color"
+            type="color"
+            name="movie"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-control">
+          <label>Book genre you love?</label>
+        <div class="form-control terms">
+          <input type="checkbox" id="terms" name="terms" />
+          <label for="terms">I Agree to Terms</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
