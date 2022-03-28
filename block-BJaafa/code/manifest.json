@@ -1,0 +1,9 @@
+{
+    "name":"VS Code Cheatsheet",
+    "description":"VS Code Cheatsheet",
+    "version":"1.65.2",
+    "manifest_version":3,
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    }
+}
